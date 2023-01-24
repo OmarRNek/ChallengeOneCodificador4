@@ -1,0 +1,95 @@
+main{
+    display: flex;
+    padding: 0px 450px;
+}
+body{
+    background-color: #E5E5E5;
+}
+.encabezado{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    background: #FFFFFF;
+    padding: 12px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.titulo{
+    position: relative;
+    left: 120px;
+    top: -40px;
+}
+.areas{
+    margin: 10px 10px auto;
+}
+.areas li{
+    display: inline-block;
+}
+.areaDelTexto{
+    border: none;
+}
+.textoAlerta{
+    font-size: 12px;
+}
+.botonEncriptar{
+    width: 260px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+    color: white;
+    background: #0A3871;
+    border: none;
+}
+.botonDesncriptar{
+    width: 260px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+    color: #757FB2;
+    background: #E9ECF8;
+    border: solid 2px #757FB2;
+}
+.areaDelmensaje{
+    background-color: white;
+    background-image: url(ImagenesEncriptador/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 240px;
+    border: none;
+    border-radius: 24px;
+}
+.areaMensaje{
+    display: grid;
+    margin: 10px 10px auto;
+}
+.botonCopiar{
+    width: 260px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+    color: #757FB2;
+    background: #E9ECF8;
+    border: solid 2px #757FB2;
+}
+.estadoMensaje{
+    width: 300px;
+}
+.textoSecundario{
+    width: 300px;
+    margin-bottom: 85px;
+}
+
